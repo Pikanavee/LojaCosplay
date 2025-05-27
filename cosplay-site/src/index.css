@@ -1,0 +1,69 @@
+:root {
+  --primary-color: #0056b3;
+  --secondary-color: #6c757d;
+  --light-blue: #e6f2ff;
+  --gradient-start: #003366;
+  --gradient-end: #0077cc;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  padding: 20px;
+  overflow-x: hidden; /* Prevenir scroll horizontal */
+}
+
+
+
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Estabilizar layout para evitar tremulação */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* Garantir que os formulários tenham altura estável */
+form {
+  width: 100%;
+  position: relative;
+}
+
+/* Evitar que os botões mudem de tamanho */
+.btn {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Garantir que as tabs tenham altura fixa */
+.nav-tabs {
+  height: 42px;
+}
+
+/* Garantir que o conteúdo das tabs tenha altura mínima */
+.tab-content {
+  min-height: 300px;
+}
