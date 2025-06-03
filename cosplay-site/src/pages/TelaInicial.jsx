@@ -36,7 +36,7 @@ export default function TelaInicial() {
   return (
     <div
       id="bglogin"
-      class="row justify-content-center align-items-center vh-100"
+      class="row justify-content-center align-items-center min-vh-100 py-4"
     >
       <div class="col-12 col-md-8 col-lg-5 text-center shadow rounded bg-light">
         <ul className="nav nav-tabs mb-4">

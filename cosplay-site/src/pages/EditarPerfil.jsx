@@ -51,7 +51,7 @@ export default function EditarPerfil() {
   };
 
   return (
-    <div class="row justify-content-center align-items-center vh-100">
+    <div id="bglogin" class="row justify-content-center align-items-center min-vh-100">
       <div class="col-12 col-md-8 col-lg-5 text-center p-4 shadow rounded bg-light">
         <div className="card card-container shadow">
           <div className="card-body p-4">

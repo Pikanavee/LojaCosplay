@@ -69,7 +69,7 @@ form {
   background-image: url("./assets/imagem-bg.png"); /* ajuste o caminho conforme necessário */
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  width: 100vw;
+  
 }

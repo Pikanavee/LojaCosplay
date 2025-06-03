@@ -30,7 +30,7 @@ export default function Cosplays() {
       nome,
       origem,
       descricao,
-      imagem: imagemPreview || "/placeholder.svg?height=300&width=200",
+      imagem: imagemPreview || "https://placehold.co/600x400?text=Sem+Imagem",
     };
 
     // Obter cosplays existentes do localStorage
@@ -56,11 +56,8 @@ export default function Cosplays() {
   };
 
   return (
-    <div
-      id="bglogin"
-      class="row justify-content-center align-items-center vh-100"
-    >
-      <div class="row justify-content-center align-items-center vh-100">
+    <div id="bglogin" class="row justify-content-center align-items-center py-4">
+      <div class="row justify-content-center align-items-center min-vh-100">
         <div class="col-12 col-md-8 col-lg-5 text-center shadow rounded bg-light">
           <div className="card card-container shadow">
             <div className="card-body p-4">
@@ -106,7 +103,7 @@ export default function Cosplays() {
                     placeholder="Descrição"
                     value={descricao}
                     onChange={(e) => setDescricao(e.target.value)}
-                    rows={4}
+                    rows={2}
                     required
                   ></textarea>
                 </div>
@@ -122,7 +119,10 @@ export default function Cosplays() {
                   {imagemPreview && (
                     <div className="mt-2 text-center">
                       <img
-                        src={imagemPreview || "/placeholder.svg"}
+                        src={
+                          imagemPreview ||
+                          "https://placehold.co/600x400?text=Hello+World"
+                        }
                         alt="Preview"
                         className="img-fluid rounded border"
                         style={{ maxHeight: "160px" }}

@@ -19,7 +19,7 @@ export default function Cadastro() {
   return (
     <div
       id="bglogin"
-      class="row justify-content-center align-items-center vh-100"
+      class="row justify-content-center align-items-center min-vh-100"
     >
       <div class="row justify-content-center align-items-center vh-100">
         <div class="col-12 col-md-8 col-lg-5 text-center shadow rounded bg-light">

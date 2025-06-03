@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div
       id="bglogin"
-      class="row justify-content-center align-items-center vh-100"
+      class="d-flex justify-content-center align-items-center  min-vh-100"
     >
-      <div class="row justify-content-center align-items-center vh-100">
+      <div class="d-flex w-100 justify-content-center align-items-center  min-vh-100">
         <div class="col-12 col-md-8 col-lg-5 text-center p-4 shadow rounded bg-light">
           <div className="text-center mb-4">
             <h2 className="fs-4 fw-bold mb-3">Bem-vindo ao Cosplay Log</h2>
